@@ -2,7 +2,7 @@ import csv
 import os
 
 #creating filepath
-election_data_csv = os.path.join('C:\\Users\\Danny Dao\\Desktop\\UCI program\\HOMEWORK\\Python\\pypoll.py\\Resources\\election_data.csv')
+election_data_csv = os.path.join('election_data.csv')
 
 total_votes = 0 
 votes_per_candidate = {}

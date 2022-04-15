@@ -2,7 +2,7 @@ import os
 import csv
 
 #set path for csv file and text file analysis result 
-csvpath = os.path.join('C:\\Users\\Danny Dao\\Desktop\\UCI program\\HOMEWORK\\Python\\pybank.py\\Resources\\budget_data.csv')
+csvpath = os.path.join('budget_data.csv')
 
 with open(csvpath, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
